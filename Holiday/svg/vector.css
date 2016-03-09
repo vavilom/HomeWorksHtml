@@ -1,0 +1,10 @@
+.svg_triangle{
+        height: 500px;
+        width: 500px;
+    }
+
+    .svg_triangle polygon {
+      fill:red;
+      stroke:green;
+      stroke-width:2;
+    }
