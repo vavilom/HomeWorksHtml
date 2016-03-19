@@ -215,6 +215,7 @@ header{
     letter-spacing: -1px;
     border-right: 2px solid rgba(0,199,232,1);
     padding-right: 5px;
+    min-width: 400px;
 }
 
 .main_menu li{
