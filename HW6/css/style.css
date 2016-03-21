@@ -115,6 +115,7 @@ body{
     width: 109px;
     font-size: 11px;
     padding: 0px 0px 0px 3px;
+    box-sizing: border-box;
 }
 
 .sign{
