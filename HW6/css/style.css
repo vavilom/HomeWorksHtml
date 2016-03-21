@@ -1,5 +1,32 @@
-﻿body{
-    font-family: Arial, sans-serif;
+﻿@font-face {
+    font-family: 'arialregular';
+    src: url('arial-webfont.eot');
+    src: url('arial-webfont.eot?#iefix') format('embedded-opentype'),
+         url('arial-webfont.woff2') format('woff2'),
+         url('arial-webfont.woff') format('woff'),
+         url('arial-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'lucida_sans_unicoderegular';
+    src: url('lucida_sans_unicode_regular-webfont.eot');
+    src: url('lucida_sans_unicode_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('lucida_sans_unicode_regular-webfont.woff2') format('woff2'),
+         url('lucida_sans_unicode_regular-webfont.woff') format('woff'),
+         url('lucida_sans_unicode_regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+    font-family: Arial, arialregular, sans-serif;
 }
 
 .clearfix::after{
@@ -80,7 +107,7 @@
     float: left;
     margin-left: 16px;
     position: relative;
-    font-family: 'Lucida Sans Unicode';
+    font-family: 'Lucida Sans Unicode', 'lucida_sans_unicoderegular', sans-serif;
     box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.5);
 }
 
@@ -217,7 +244,7 @@
 .left_filter{
     float: left;
     width: 191px;
-    font-family: 'Lucida Sans Unicode';
+    font-family: 'Lucida Sans Unicode', 'lucida_sans_unicoderegular', sans-serif;
 }
 
 .content{
@@ -230,7 +257,7 @@
 .right_filter{
     float: right;
     width: 195px;
-    font-family: 'Lucida Sans Unicode';
+    font-family: 'Lucida Sans Unicode', 'lucida_sans_unicoderegular', sans-serif;
 }
 
 .catalog_left{
@@ -315,7 +342,7 @@
 }
 
 .category_item_active{
-    font-family: Arial;
+    font-family: Arial, arialregular, sans-serif;
     font-style: italic;
     font-weight: bold;
     color: #0c3256;
@@ -360,7 +387,7 @@
     color: white;
     line-height: 25px;
     font-size: 11px;
-    font-family: Arial;
+    font-family: Arial, arialregular, sans-serif;
     font-stretch: ultra-expanded;
 }
 
@@ -443,18 +470,18 @@ img, a {
 
 .product p:nth-of-type(1){
     color: #206988;
-    font-family: 'Lucida Sans Unicode';
+    font-family: 'Lucida Sans Unicode', 'lucida_sans_unicoderegular', sans-serif;
     font-size: 14.59px;
     font-weight: 600;
 }
 
 .product p:nth-of-type(2){
-    font-family: 'Lucida Sans Unicode';
+    font-family: 'Lucida Sans Unicode', 'lucida_sans_unicoderegular', sans-serif;
     font-size: 12.77px;
 }
 
 .product p:nth-of-type(3){
-    font-family: Arial;
+    font-family: Arial, arialregular, sans-serif;
     font-size: 16px;
     line-height: 23px;
     padding-left: 7px;
@@ -504,7 +531,7 @@ footer{
 
 footer span{
     text-decoration: none;
-    font-family: Arial;
+    font-family: Arial, arialregular, sans-serif;
     font-size: 12px;
     color: #bec6c9;
 }
