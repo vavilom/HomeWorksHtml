@@ -10,9 +10,6 @@
 
 }
 
-
-
-
 @font-face {
     font-family: 'lucida_sans_unicoderegular';
     src: url('lucida_sans_unicode_regular-webfont.eot');
@@ -39,7 +36,6 @@ body{
     width: 912px;
     margin-left: auto;
     margin-right: auto;
-    height: 600px;
 }
 
 .bonus{
@@ -112,7 +108,7 @@ body{
 }
 
 .authorization input{
-    width: 109px;
+    width: 115px;
     font-size: 11px;
     padding: 0px 0px 0px 3px;
     box-sizing: border-box;
@@ -223,8 +219,14 @@ body{
 .order span{
     font-size: 12px;
     color: #0d5a8f;
-    padding-right: 10px;
-    
+}
+
+.order span:last-child{
+    margin-left: 14px;
+}
+
+.order span:first-child{
+    margin-right: 16px;
 }
 
 .order img{
